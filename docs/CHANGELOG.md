@@ -16,3 +16,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 012** [2026-09-21 22:24]: `docs: add research notes on Indian metropolitan air monitoring stations`
 - **Commit 013** [2026-09-21 23:37]: `docs: contrast foundational ML paradigms with deep learning approaches`
 - **Commit 014** [2026-09-22 00:50]: `feat: create JSON serialization and loading helpers in src/utils.py`
+- **Commit 015** [2026-09-22 02:03]: `feat: configure matplotlib non-interactive plotting style for automated reports`
