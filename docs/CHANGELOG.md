@@ -14,3 +14,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 010** [2026-09-21 19:57]: `feat: implement CPCB category mapping dictionaries and color palette in src/utils.py`
 - **Commit 011** [2026-09-21 21:11]: `test: add smoke test for CPCB category threshold boundary mappings`
 - **Commit 012** [2026-09-21 22:24]: `docs: add research notes on Indian metropolitan air monitoring stations`
+- **Commit 013** [2026-09-21 23:37]: `docs: contrast foundational ML paradigms with deep learning approaches`
