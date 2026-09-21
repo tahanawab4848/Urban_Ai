@@ -18,3 +18,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 014** [2026-09-22 00:50]: `feat: create JSON serialization and loading helpers in src/utils.py`
 - **Commit 015** [2026-09-22 02:03]: `feat: configure matplotlib non-interactive plotting style for automated reports`
 - **Commit 016** [2026-09-22 03:16]: `docs: add data governance notes and CC0 license metadata`
+- **Commit 017** [2026-09-22 04:29]: `chore: pin imbalanced-learn and scipy in requirements.txt`
