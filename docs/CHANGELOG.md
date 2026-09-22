@@ -28,3 +28,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 024** [2026-09-22 13:01]: `feat: add basic schema validation and column typing in data_loader.py`
 - **Commit 025** [2026-09-22 14:14]: `feat: parse ISO-8601 Date column into pandas datetime objects`
 - **Commit 026** [2026-09-22 15:27]: `docs: document criteria pollutants (PM2.5, PM10, NO2, SO2, CO, O3, NH3)`
+- **Commit 027** [2026-09-22 16:40]: `docs: document secondary volatile organic compounds (Benzene, Toluene, Xylene)`
