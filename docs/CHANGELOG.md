@@ -26,3 +26,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 022** [2026-09-22 10:35]: `feat: implement SHA-256 integrity verification for raw CSV downloads`
 - **Commit 023** [2026-09-22 11:48]: `test: test network download retry logic and error logging`
 - **Commit 024** [2026-09-22 13:01]: `feat: add basic schema validation and column typing in data_loader.py`
+- **Commit 025** [2026-09-22 14:14]: `feat: parse ISO-8601 Date column into pandas datetime objects`
