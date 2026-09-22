@@ -33,3 +33,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 029** [2026-09-22 19:06]: `test: verify row count and column presence against Kaggle reference (29,531 records)`
 - **Commit 030** [2026-09-22 20:19]: `feat: save raw data snapshot in data/raw/city_day.csv`
 - **Commit 031** [2026-09-22 21:33]: `docs: add BibTeX citation for CPCB 2014 NAQI steering committee report`
+- **Commit 032** [2026-09-22 22:46]: `feat: add CLI runner to data_loader.py for standalone execution`
