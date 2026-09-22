@@ -38,3 +38,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 034** [2026-09-23 01:12]: `docs: audit geographical coverage across 26 Indian metropolitan centers`
 - **Commit 035** [2026-09-23 02:25]: `test: add unit test for map_aqi_to_bucket utility`
 - **Commit 036** [2026-09-23 03:38]: `feat: add stationarity verification across temporal monitoring dates`
+- **Commit 037** [2026-09-23 04:51]: `docs: add data dictionary markdown table to documentation`
