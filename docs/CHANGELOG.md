@@ -21,3 +21,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 017** [2026-09-22 04:29]: `chore: pin imbalanced-learn and scipy in requirements.txt`
 - **Commit 018** [2026-09-22 05:42]: `docs: complete Day 1 milestone sign-off and environment verification`
 - **Commit 019** [2026-09-22 06:55]: `feat: create data_loader.py for automated ingestion of city_day.csv`
+- **Commit 020** [2026-09-22 08:08]: `docs: add data/data_citation.md documenting Rohan Rao Kaggle dataset provenance`
