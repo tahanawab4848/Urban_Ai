@@ -31,3 +31,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 027** [2026-09-22 16:40]: `docs: document secondary volatile organic compounds (Benzene, Toluene, Xylene)`
 - **Commit 028** [2026-09-22 17:53]: `feat: reconcile missing AQI_Bucket labels against numeric AQI breakpoints`
 - **Commit 029** [2026-09-22 19:06]: `test: verify row count and column presence against Kaggle reference (29,531 records)`
+- **Commit 030** [2026-09-22 20:19]: `feat: save raw data snapshot in data/raw/city_day.csv`
