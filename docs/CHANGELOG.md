@@ -29,3 +29,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 025** [2026-09-22 14:14]: `feat: parse ISO-8601 Date column into pandas datetime objects`
 - **Commit 026** [2026-09-22 15:27]: `docs: document criteria pollutants (PM2.5, PM10, NO2, SO2, CO, O3, NH3)`
 - **Commit 027** [2026-09-22 16:40]: `docs: document secondary volatile organic compounds (Benzene, Toluene, Xylene)`
+- **Commit 028** [2026-09-22 17:53]: `feat: reconcile missing AQI_Bucket labels against numeric AQI breakpoints`
