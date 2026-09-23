@@ -47,3 +47,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 043** [2026-09-23 12:10]: `docs: justify median imputation over iterative KNN and mean imputation`
 - **Commit 044** [2026-09-23 13:23]: `feat: implement duplicate row and city-date collision auditing`
 - **Commit 045** [2026-09-23 14:36]: `feat: compute target class distribution on labeled cohort (24,850 records)`
+- **Commit 046** [2026-09-23 15:49]: `feat: generate eda_class_balance.png using official CPCB hex colors`
