@@ -43,3 +43,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 039** [2026-09-23 07:17]: `feat: initialize comprehensive EDA module in src/eda.py`
 - **Commit 040** [2026-09-23 08:30]: `feat: compute feature-level missingness counts and percentages`
 - **Commit 041** [2026-09-23 09:44]: `feat: generate eda_missing_values.png barplot`
+- **Commit 042** [2026-09-23 10:57]: `docs: document missingness rationale (Xylene 61.3%, PM10 37.7%, NH3 35.0%)`
