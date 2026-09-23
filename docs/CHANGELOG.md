@@ -46,3 +46,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 042** [2026-09-23 10:57]: `docs: document missingness rationale (Xylene 61.3%, PM10 37.7%, NH3 35.0%)`
 - **Commit 043** [2026-09-23 12:10]: `docs: justify median imputation over iterative KNN and mean imputation`
 - **Commit 044** [2026-09-23 13:23]: `feat: implement duplicate row and city-date collision auditing`
+- **Commit 045** [2026-09-23 14:36]: `feat: compute target class distribution on labeled cohort (24,850 records)`
