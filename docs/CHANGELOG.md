@@ -53,3 +53,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 049** [2026-09-23 19:28]: `feat: calculate parametric skewness and kurtosis across all 12 ambient pollutants`
 - **Commit 050** [2026-09-23 20:41]: `feat: generate eda_pollutant_distributions.png multi-panel histogram and KDE grid`
 - **Commit 051** [2026-09-23 21:55]: `docs: identify heavy right-skewed lognormal tails across particulate emissions`
+- **Commit 052** [2026-09-23 23:08]: `feat: implement IQR outlier detection (Q1, Q3, IQR, upper cutoff boundaries)`
