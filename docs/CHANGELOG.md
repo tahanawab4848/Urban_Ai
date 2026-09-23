@@ -57,3 +57,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 053** [2026-09-24 00:21]: `feat: generate eda_pollutant_boxplots.png with log-scaled concentration axes`
 - **Commit 054** [2026-09-24 01:34]: `docs: justify outlier retention based on authentic episodic pollution events (Diwali, stubble burning)`
 - **Commit 055** [2026-09-24 02:47]: `feat: compute Pearson correlation matrix across criteria pollutants`
+- **Commit 056** [2026-09-24 04:00]: `feat: generate eda_correlation_heatmap.png with correlation coefficients`
