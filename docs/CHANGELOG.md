@@ -70,3 +70,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 066** [2026-09-24 16:11]: `feat: initialize preprocessing module in src/preprocess.py`
 - **Commit 067** [2026-09-24 17:24]: `feat: implement AirQualityFeatureEngineer transformer class inheriting BaseEstimator`
 - **Commit 068** [2026-09-24 18:37]: `feat: engineer PM_Ratio = PM2.5 / (PM10 + eps) aerosol diameter indicator`
+- **Commit 069** [2026-09-24 19:50]: `docs: document aerosol ratio physical significance (fine combustion vs coarse dust)`
