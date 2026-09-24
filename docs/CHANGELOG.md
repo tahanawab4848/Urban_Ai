@@ -73,3 +73,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 069** [2026-09-24 19:50]: `docs: document aerosol ratio physical significance (fine combustion vs coarse dust)`
 - **Commit 070** [2026-09-24 21:04]: `feat: extract calendar features (Month 1-12, DayOfWeek 0-6) from monitoring dates`
 - **Commit 071** [2026-09-24 22:17]: `feat: implement get_season utility classifying Indian meteorological seasons`
+- **Commit 072** [2026-09-24 23:30]: `feat: generate one-hot flags for Winter, Summer, Monsoon, and Post-Monsoon`
