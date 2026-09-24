@@ -75,3 +75,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 071** [2026-09-24 22:17]: `feat: implement get_season utility classifying Indian meteorological seasons`
 - **Commit 072** [2026-09-24 23:30]: `feat: generate one-hot flags for Winter, Summer, Monsoon, and Post-Monsoon`
 - **Commit 073** [2026-09-25 00:43]: `docs: document seasonal inversion trapping and monsoon wet deposition physics`
+- **Commit 074** [2026-09-25 01:56]: `feat: implement build_preprocessor_pipeline using scikit-learn ColumnTransformer`
