@@ -59,3 +59,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 055** [2026-09-24 02:47]: `feat: compute Pearson correlation matrix across criteria pollutants`
 - **Commit 056** [2026-09-24 04:00]: `feat: generate eda_correlation_heatmap.png with correlation coefficients`
 - **Commit 057** [2026-09-24 05:13]: `feat: implement manual Variance Inflation Factor (VIF) matrix inversion calculation`
+- **Commit 058** [2026-09-24 06:26]: `docs: document VIF collinearity between PM2.5 and PM10 (r = 0.84)`
