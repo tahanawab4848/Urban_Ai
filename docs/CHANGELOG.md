@@ -63,3 +63,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 059** [2026-09-24 07:39]: `feat: generate eda_top_features_pairplot.png stratified by CPCB category`
 - **Commit 060** [2026-09-24 08:52]: `feat: conduct data leakage audit confirming target isolation from feature matrix X`
 - **Commit 061** [2026-09-24 10:06]: `feat: compute Mutual Information (MI) classification scores for criteria pollutants`
+- **Commit 062** [2026-09-24 11:19]: `feat: train preliminary decision tree (depth 5) for baseline feature importances`
