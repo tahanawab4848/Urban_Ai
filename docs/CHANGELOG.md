@@ -62,3 +62,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 058** [2026-09-24 06:26]: `docs: document VIF collinearity between PM2.5 and PM10 (r = 0.84)`
 - **Commit 059** [2026-09-24 07:39]: `feat: generate eda_top_features_pairplot.png stratified by CPCB category`
 - **Commit 060** [2026-09-24 08:52]: `feat: conduct data leakage audit confirming target isolation from feature matrix X`
+- **Commit 061** [2026-09-24 10:06]: `feat: compute Mutual Information (MI) classification scores for criteria pollutants`
