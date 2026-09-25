@@ -91,3 +91,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 087** [2026-09-25 17:46]: `feat: add CLI runner to preprocess.py`
 - **Commit 088** [2026-09-25 18:59]: `docs: complete Day 4 milestone sign-off for feature engineering`
 - **Commit 089** [2026-09-25 20:12]: `feat: implement stratified 80/20 train-test partition in prepare_capstone_data`
+- **Commit 090** [2026-09-25 21:26]: `docs: justify stratified splitting to preserve minority class ratios across splits`
