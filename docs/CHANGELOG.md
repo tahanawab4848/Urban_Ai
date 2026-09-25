@@ -88,3 +88,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 084** [2026-09-25 14:07]: `feat: add joblib serialization logic for preprocessor bundle`
 - **Commit 085** [2026-09-25 15:20]: `test: test round-trip joblib serialization and unpickling of preprocessor`
 - **Commit 086** [2026-09-25 16:33]: `docs: verify zero data leakage in preprocessor design`
+- **Commit 087** [2026-09-25 17:46]: `feat: add CLI runner to preprocess.py`
