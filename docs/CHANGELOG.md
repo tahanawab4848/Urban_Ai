@@ -79,3 +79,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 075** [2026-09-25 03:09]: `feat: integrate SimpleImputer(strategy='median') for robust missingness handling`
 - **Commit 076** [2026-09-25 04:22]: `feat: integrate StandardScaler() for zero-mean unit-variance normalization`
 - **Commit 077** [2026-09-25 05:35]: `docs: document why standard scaling is essential for distance and gradient models`
+- **Commit 078** [2026-09-25 06:48]: `feat: define 14-feature canonical input schema`
