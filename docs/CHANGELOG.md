@@ -96,3 +96,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 092** [2026-09-25 23:52]: `feat: transform 20% test partition (4,970 samples) using frozen training parameters`
 - **Commit 093** [2026-09-26 01:05]: `docs: document mathematical risks of applying SMOTE prior to train-test splitting`
 - **Commit 094** [2026-09-26 02:18]: `feat: integrate imblearn.over_sampling.SMOTE for training split rebalancing`
+- **Commit 095** [2026-09-26 03:31]: `feat: apply SMOTE strictly to X_train_scaled and y_train`
