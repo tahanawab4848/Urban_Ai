@@ -93,3 +93,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 089** [2026-09-25 20:12]: `feat: implement stratified 80/20 train-test partition in prepare_capstone_data`
 - **Commit 090** [2026-09-25 21:26]: `docs: justify stratified splitting to preserve minority class ratios across splits`
 - **Commit 091** [2026-09-25 22:39]: `feat: fit ColumnTransformer strictly on 80% training partition (19,880 samples)`
+- **Commit 092** [2026-09-25 23:52]: `feat: transform 20% test partition (4,970 samples) using frozen training parameters`
