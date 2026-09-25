@@ -83,3 +83,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 079** [2026-09-25 08:01]: `test: test FeatureEngineer transform on sample DataFrame`
 - **Commit 080** [2026-09-25 09:15]: `test: verify non-negative constraints and ratio clipping bounds [0, 2.0]`
 - **Commit 081** [2026-09-25 10:28]: `refactor: ensure ColumnTransformer drops non-feature raw keys (City, Date, AQI)`
+- **Commit 082** [2026-09-25 11:41]: `docs: add mathematical definition of feature scaling transformations`
