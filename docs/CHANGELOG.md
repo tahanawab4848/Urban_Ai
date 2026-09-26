@@ -114,3 +114,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 110** [2026-09-26 21:48]: `feat: implement load_processed_splits utility loading train.csv and test.csv`
 - **Commit 111** [2026-09-26 23:01]: `feat: configure Multinomial Logistic Regression baseline estimator`
 - **Commit 112** [2026-09-27 00:14]: `docs: document Softmax activation and cross-entropy loss formulation`
+- **Commit 113** [2026-09-27 01:27]: `feat: configure K-Nearest Neighbors (KNN) instance-based classifier`
