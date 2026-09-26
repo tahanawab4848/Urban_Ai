@@ -100,3 +100,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 096** [2026-09-26 04:44]: `docs: verify training distribution rebalanced to 7,063 samples per class (42,378 total)`
 - **Commit 097** [2026-09-26 05:57]: `docs: verify test set remains 100% natural, unpolluted, and un-synthesized`
 - **Commit 098** [2026-09-26 07:10]: `feat: export scaled training split before SMOTE to data/processed/train_scaled_original.csv`
+- **Commit 099** [2026-09-26 08:23]: `feat: export final resampled training split to data/processed/train.csv`
