@@ -102,3 +102,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 098** [2026-09-26 07:10]: `feat: export scaled training split before SMOTE to data/processed/train_scaled_original.csv`
 - **Commit 099** [2026-09-26 08:23]: `feat: export final resampled training split to data/processed/train.csv`
 - **Commit 100** [2026-09-26 09:37]: `feat: export held-out evaluation test split to data/processed/test.csv`
+- **Commit 101** [2026-09-26 10:50]: `feat: serialize artifacts/preprocessor.joblib with feature columns and metadata`
