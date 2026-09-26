@@ -103,3 +103,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 099** [2026-09-26 08:23]: `feat: export final resampled training split to data/processed/train.csv`
 - **Commit 100** [2026-09-26 09:37]: `feat: export held-out evaluation test split to data/processed/test.csv`
 - **Commit 101** [2026-09-26 10:50]: `feat: serialize artifacts/preprocessor.joblib with feature columns and metadata`
+- **Commit 102** [2026-09-26 12:03]: `test: verify file existence and integrity of train.csv and test.csv`
