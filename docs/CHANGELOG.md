@@ -116,3 +116,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 112** [2026-09-27 00:14]: `docs: document Softmax activation and cross-entropy loss formulation`
 - **Commit 113** [2026-09-27 01:27]: `feat: configure K-Nearest Neighbors (KNN) instance-based classifier`
 - **Commit 114** [2026-09-27 02:40]: `docs: document KNN distance metrics (Euclidean vs Manhattan) and voting schemes`
+- **Commit 115** [2026-09-27 03:53]: `feat: configure Decision Tree Classifier for recursive orthogonal partitioning`
