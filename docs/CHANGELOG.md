@@ -107,3 +107,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 103** [2026-09-26 13:16]: `test: test class distribution consistency across test partition`
 - **Commit 104** [2026-09-26 14:29]: `refactor: optimize SMOTE k_neighbors parameter for minority stability`
 - **Commit 105** [2026-09-26 15:42]: `docs: document SMOTE synthetic interpolation mathematics`
+- **Commit 106** [2026-09-26 16:55]: `docs: add data partition summary table to technical notes`
