@@ -106,3 +106,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 102** [2026-09-26 12:03]: `test: verify file existence and integrity of train.csv and test.csv`
 - **Commit 103** [2026-09-26 13:16]: `test: test class distribution consistency across test partition`
 - **Commit 104** [2026-09-26 14:29]: `refactor: optimize SMOTE k_neighbors parameter for minority stability`
+- **Commit 105** [2026-09-26 15:42]: `docs: document SMOTE synthetic interpolation mathematics`
