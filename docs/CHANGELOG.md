@@ -105,3 +105,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 101** [2026-09-26 10:50]: `feat: serialize artifacts/preprocessor.joblib with feature columns and metadata`
 - **Commit 102** [2026-09-26 12:03]: `test: verify file existence and integrity of train.csv and test.csv`
 - **Commit 103** [2026-09-26 13:16]: `test: test class distribution consistency across test partition`
+- **Commit 104** [2026-09-26 14:29]: `refactor: optimize SMOTE k_neighbors parameter for minority stability`
