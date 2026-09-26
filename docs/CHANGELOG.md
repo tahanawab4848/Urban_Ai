@@ -108,3 +108,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 104** [2026-09-26 14:29]: `refactor: optimize SMOTE k_neighbors parameter for minority stability`
 - **Commit 105** [2026-09-26 15:42]: `docs: document SMOTE synthetic interpolation mathematics`
 - **Commit 106** [2026-09-26 16:55]: `docs: add data partition summary table to technical notes`
+- **Commit 107** [2026-09-26 18:08]: `chore: add defensive __main__ alias for robust joblib unpickling`
