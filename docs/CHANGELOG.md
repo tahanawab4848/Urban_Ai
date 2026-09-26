@@ -112,3 +112,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 108** [2026-09-26 19:21]: `docs: complete Day 5 milestone sign-off for data preparation`
 - **Commit 109** [2026-09-26 20:34]: `feat: initialize model training module in src/train.py`
 - **Commit 110** [2026-09-26 21:48]: `feat: implement load_processed_splits utility loading train.csv and test.csv`
+- **Commit 111** [2026-09-26 23:01]: `feat: configure Multinomial Logistic Regression baseline estimator`
