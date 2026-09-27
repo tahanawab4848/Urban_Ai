@@ -131,3 +131,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 127** [2026-09-27 18:30]: `docs: document computational complexity (O(N*D) inference for KNN vs O(depth) for DT)`
 - **Commit 128** [2026-09-27 19:43]: `docs: complete Day 6 milestone sign-off for foundational model setup`
 - **Commit 129** [2026-09-27 20:57]: `feat: execute 5-fold Stratified GridSearchCV for Multinomial Logistic Regression`
+- **Commit 130** [2026-09-27 22:10]: `docs: log Logistic Regression best params: C=10.0, class_weight=None, solver=lbfgs`
