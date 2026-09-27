@@ -127,3 +127,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 123** [2026-09-27 13:38]: `feat: add timing profiler tracking cross-validation tuning duration`
 - **Commit 124** [2026-09-27 14:51]: `feat: add per-sample inference latency benchmark in milliseconds`
 - **Commit 125** [2026-09-27 16:04]: `test: test model fitting on toy subset for pipeline validation`
+- **Commit 126** [2026-09-27 17:17]: `refactor: optimize n_jobs concurrency for stable multithreading on Windows`
