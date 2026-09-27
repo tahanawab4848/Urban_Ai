@@ -117,3 +117,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 113** [2026-09-27 01:27]: `feat: configure K-Nearest Neighbors (KNN) instance-based classifier`
 - **Commit 114** [2026-09-27 02:40]: `docs: document KNN distance metrics (Euclidean vs Manhattan) and voting schemes`
 - **Commit 115** [2026-09-27 03:53]: `feat: configure Decision Tree Classifier for recursive orthogonal partitioning`
+- **Commit 116** [2026-09-27 05:06]: `docs: document Decision Tree Gini impurity vs Information Gain splitting criteria`
