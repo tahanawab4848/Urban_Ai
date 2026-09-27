@@ -119,3 +119,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 115** [2026-09-27 03:53]: `feat: configure Decision Tree Classifier for recursive orthogonal partitioning`
 - **Commit 116** [2026-09-27 05:06]: `docs: document Decision Tree Gini impurity vs Information Gain splitting criteria`
 - **Commit 117** [2026-09-27 06:19]: `docs: document why deep learning models were excluded for regulatory defensibility`
+- **Commit 118** [2026-09-27 07:32]: `feat: define 5-fold Stratified K-Fold cross-validation scheme (random_state=42)`
