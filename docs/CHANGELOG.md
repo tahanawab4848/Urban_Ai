@@ -124,3 +124,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 120** [2026-09-27 09:59]: `feat: define GridSearchCV parameter grid for KNN (n_neighbors, weights, metric)`
 - **Commit 121** [2026-09-27 11:12]: `feat: define GridSearchCV parameter grid for Decision Tree (max_depth, min_samples_split, criterion)`
 - **Commit 122** [2026-09-27 12:25]: `docs: select Macro-averaged F1 as primary optimization objective`
+- **Commit 123** [2026-09-27 13:38]: `feat: add timing profiler tracking cross-validation tuning duration`
