@@ -128,3 +128,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 124** [2026-09-27 14:51]: `feat: add per-sample inference latency benchmark in milliseconds`
 - **Commit 125** [2026-09-27 16:04]: `test: test model fitting on toy subset for pipeline validation`
 - **Commit 126** [2026-09-27 17:17]: `refactor: optimize n_jobs concurrency for stable multithreading on Windows`
+- **Commit 127** [2026-09-27 18:30]: `docs: document computational complexity (O(N*D) inference for KNN vs O(depth) for DT)`
