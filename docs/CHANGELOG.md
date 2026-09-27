@@ -122,3 +122,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 118** [2026-09-27 07:32]: `feat: define 5-fold Stratified K-Fold cross-validation scheme (random_state=42)`
 - **Commit 119** [2026-09-27 08:45]: `feat: define GridSearchCV parameter grid for Logistic Regression (C, solver, class_weight)`
 - **Commit 120** [2026-09-27 09:59]: `feat: define GridSearchCV parameter grid for KNN (n_neighbors, weights, metric)`
+- **Commit 121** [2026-09-27 11:12]: `feat: define GridSearchCV parameter grid for Decision Tree (max_depth, min_samples_split, criterion)`
