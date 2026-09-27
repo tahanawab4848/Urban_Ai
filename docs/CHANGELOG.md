@@ -136,3 +136,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 132** [2026-09-28 00:36]: `feat: evaluate tuned Logistic Regression on 4,970 held-out test samples`
 - **Commit 133** [2026-09-28 01:49]: `docs: log Logistic Regression test metrics: Accuracy 69.88%, Macro-F1 0.6896, ROC-AUC 0.9414`
 - **Commit 134** [2026-09-28 03:02]: `feat: execute 5-fold Stratified GridSearchCV for K-Nearest Neighbors`
+- **Commit 135** [2026-09-28 04:15]: `docs: log KNN best params: n_neighbors=5, metric=manhattan, weights=distance`
