@@ -118,3 +118,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 114** [2026-09-27 02:40]: `docs: document KNN distance metrics (Euclidean vs Manhattan) and voting schemes`
 - **Commit 115** [2026-09-27 03:53]: `feat: configure Decision Tree Classifier for recursive orthogonal partitioning`
 - **Commit 116** [2026-09-27 05:06]: `docs: document Decision Tree Gini impurity vs Information Gain splitting criteria`
+- **Commit 117** [2026-09-27 06:19]: `docs: document why deep learning models were excluded for regulatory defensibility`
