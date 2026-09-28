@@ -153,3 +153,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 149** [2026-09-28 21:19]: `feat: initialize evaluation and diagnostic module in src/evaluate.py`
 - **Commit 150** [2026-09-28 22:32]: `feat: compute normalized confusion matrices for all three models`
 - **Commit 151** [2026-09-28 23:45]: `feat: generate 1x3 confusion_matrices_all_models.png diagnostic panel`
+- **Commit 152** [2026-09-29 00:58]: `docs: diagnose boundary confusion between Moderate (101-200) and Poor (201-300)`
