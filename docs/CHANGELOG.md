@@ -147,3 +147,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 143** [2026-09-28 14:00]: `docs: log Decision Tree test metrics: Accuracy 74.95%, Macro-F1 0.7311, Macro-Recall 0.7532`
 - **Commit 144** [2026-09-28 15:13]: `feat: select Decision Tree as Champion Model based on highest test Macro-F1`
 - **Commit 145** [2026-09-28 16:26]: `feat: serialize artifacts/model.joblib with champion and candidate estimators`
+- **Commit 146** [2026-09-28 17:39]: `feat: export comprehensive performance benchmarks to artifacts/metrics.json`
