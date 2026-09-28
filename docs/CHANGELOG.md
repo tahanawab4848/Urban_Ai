@@ -145,3 +145,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 141** [2026-09-28 11:34]: `docs: log Decision Tree best CV Macro-F1: 0.8293`
 - **Commit 142** [2026-09-28 12:47]: `feat: evaluate tuned Decision Tree on 4,970 held-out test samples`
 - **Commit 143** [2026-09-28 14:00]: `docs: log Decision Tree test metrics: Accuracy 74.95%, Macro-F1 0.7311, Macro-Recall 0.7532`
+- **Commit 144** [2026-09-28 15:13]: `feat: select Decision Tree as Champion Model based on highest test Macro-F1`
