@@ -155,3 +155,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 151** [2026-09-28 23:45]: `feat: generate 1x3 confusion_matrices_all_models.png diagnostic panel`
 - **Commit 152** [2026-09-29 00:58]: `docs: diagnose boundary confusion between Moderate (101-200) and Poor (201-300)`
 - **Commit 153** [2026-09-29 02:11]: `docs: explain atmospheric continuity and particulate accumulation thresholds`
+- **Commit 154** [2026-09-29 03:24]: `docs: verify high diagonal recall (> 75%) on extreme categories (Good and Severe)`
