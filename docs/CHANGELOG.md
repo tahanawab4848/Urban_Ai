@@ -143,3 +143,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 139** [2026-09-28 09:08]: `feat: execute 5-fold Stratified GridSearchCV for Decision Tree Classifier`
 - **Commit 140** [2026-09-28 10:21]: `docs: log Decision Tree best params: criterion=gini, max_depth=16, min_samples_split=5`
 - **Commit 141** [2026-09-28 11:34]: `docs: log Decision Tree best CV Macro-F1: 0.8293`
+- **Commit 142** [2026-09-28 12:47]: `feat: evaluate tuned Decision Tree on 4,970 held-out test samples`
