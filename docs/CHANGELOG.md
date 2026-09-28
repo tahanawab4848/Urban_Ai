@@ -141,3 +141,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 137** [2026-09-28 06:41]: `feat: evaluate tuned KNN on 4,970 held-out test samples`
 - **Commit 138** [2026-09-28 07:54]: `docs: log KNN test metrics: Accuracy 70.38%, Macro-F1 0.6900, ROC-AUC 0.9041`
 - **Commit 139** [2026-09-28 09:08]: `feat: execute 5-fold Stratified GridSearchCV for Decision Tree Classifier`
+- **Commit 140** [2026-09-28 10:21]: `docs: log Decision Tree best params: criterion=gini, max_depth=16, min_samples_split=5`
