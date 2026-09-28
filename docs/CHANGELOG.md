@@ -151,3 +151,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 147** [2026-09-28 18:52]: `test: verify artifact serialization integrity of model.joblib and metrics.json`
 - **Commit 148** [2026-09-28 20:05]: `docs: complete Day 7 milestone sign-off for hyperparameter tuning`
 - **Commit 149** [2026-09-28 21:19]: `feat: initialize evaluation and diagnostic module in src/evaluate.py`
+- **Commit 150** [2026-09-28 22:32]: `feat: compute normalized confusion matrices for all three models`
