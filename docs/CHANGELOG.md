@@ -148,3 +148,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 144** [2026-09-28 15:13]: `feat: select Decision Tree as Champion Model based on highest test Macro-F1`
 - **Commit 145** [2026-09-28 16:26]: `feat: serialize artifacts/model.joblib with champion and candidate estimators`
 - **Commit 146** [2026-09-28 17:39]: `feat: export comprehensive performance benchmarks to artifacts/metrics.json`
+- **Commit 147** [2026-09-28 18:52]: `test: verify artifact serialization integrity of model.joblib and metrics.json`
