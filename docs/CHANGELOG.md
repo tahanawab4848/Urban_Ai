@@ -138,3 +138,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 134** [2026-09-28 03:02]: `feat: execute 5-fold Stratified GridSearchCV for K-Nearest Neighbors`
 - **Commit 135** [2026-09-28 04:15]: `docs: log KNN best params: n_neighbors=5, metric=manhattan, weights=distance`
 - **Commit 136** [2026-09-28 05:28]: `docs: log KNN best CV Macro-F1: 0.8756`
+- **Commit 137** [2026-09-28 06:41]: `feat: evaluate tuned KNN on 4,970 held-out test samples`
