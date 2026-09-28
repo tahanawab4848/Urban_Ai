@@ -139,3 +139,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 135** [2026-09-28 04:15]: `docs: log KNN best params: n_neighbors=5, metric=manhattan, weights=distance`
 - **Commit 136** [2026-09-28 05:28]: `docs: log KNN best CV Macro-F1: 0.8756`
 - **Commit 137** [2026-09-28 06:41]: `feat: evaluate tuned KNN on 4,970 held-out test samples`
+- **Commit 138** [2026-09-28 07:54]: `docs: log KNN test metrics: Accuracy 70.38%, Macro-F1 0.6900, ROC-AUC 0.9041`
