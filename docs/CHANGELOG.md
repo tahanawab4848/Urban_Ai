@@ -162,3 +162,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 158** [2026-09-29 08:16]: `feat: generate 1x3 roc_curves_all_models.png panel with CPCB class colors`
 - **Commit 159** [2026-09-29 09:30]: `docs: analyze global ROC-AUC (> 0.94) across models`
 - **Commit 160** [2026-09-29 10:43]: `feat: generate model_comparison_benchmark.png multi-metric bar chart`
+- **Commit 161** [2026-09-29 11:56]: `docs: compare trade-offs between linear interpretability, KNN clustering, and tree rules`
