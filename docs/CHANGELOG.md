@@ -170,3 +170,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 166** [2026-09-29 18:01]: `test: validate scenario predictions for Coastal, Industrial, and Winter Smog presets`
 - **Commit 167** [2026-09-29 19:14]: `perf: benchmark inference latency (< 0.001 ms/sample for Decision Tree)`
 - **Commit 168** [2026-09-29 20:27]: `docs: complete Day 8 milestone sign-off for model evaluation`
+- **Commit 169** [2026-09-29 21:41]: `feat: initialize interactive Streamlit web dashboard in app.py`
