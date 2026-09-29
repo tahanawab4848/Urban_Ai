@@ -165,3 +165,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 161** [2026-09-29 11:56]: `docs: compare trade-offs between linear interpretability, KNN clustering, and tree rules`
 - **Commit 162** [2026-09-29 13:09]: `feat: compile classification reports with per-class precision, recall, and support`
 - **Commit 163** [2026-09-29 14:22]: `docs: compile full artifacts/reports/model_evaluation_and_error_analysis.md`
+- **Commit 164** [2026-09-29 15:35]: `feat: add CLI runner to evaluate.py`
