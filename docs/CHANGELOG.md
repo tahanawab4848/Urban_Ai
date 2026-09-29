@@ -160,3 +160,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 156** [2026-09-29 05:50]: `feat: binarize multi-class labels for One-vs-Rest (OvR) ROC analysis`
 - **Commit 157** [2026-09-29 07:03]: `feat: compute per-class False Positive Rate, True Positive Rate, and AUC`
 - **Commit 158** [2026-09-29 08:16]: `feat: generate 1x3 roc_curves_all_models.png panel with CPCB class colors`
+- **Commit 159** [2026-09-29 09:30]: `docs: analyze global ROC-AUC (> 0.94) across models`
