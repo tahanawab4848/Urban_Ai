@@ -173,3 +173,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 169** [2026-09-29 21:41]: `feat: initialize interactive Streamlit web dashboard in app.py`
 - **Commit 170** [2026-09-29 22:54]: `feat: design responsive layout with hero header and CPCB NAQI styling`
 - **Commit 171** [2026-09-30 00:07]: `feat: implement cached load_model_and_preprocessor utility using st.cache_resource`
+- **Commit 172** [2026-09-30 01:20]: `feat: add sidebar active model selector toggling between DT, KNN, and LR`
