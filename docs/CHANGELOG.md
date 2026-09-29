@@ -157,3 +157,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 153** [2026-09-29 02:11]: `docs: explain atmospheric continuity and particulate accumulation thresholds`
 - **Commit 154** [2026-09-29 03:24]: `docs: verify high diagonal recall (> 75%) on extreme categories (Good and Severe)`
 - **Commit 155** [2026-09-29 04:37]: `docs: confirm zero catastrophic errors (zero Severe instances classified as Good)`
+- **Commit 156** [2026-09-29 05:50]: `feat: binarize multi-class labels for One-vs-Rest (OvR) ROC analysis`
