@@ -1,12 +1,25 @@
-# Pinned dependencies for Learn Depth Academy Track 1 Capstone (Problem 10)
-# Multi-Class Urban Air Quality Category Prediction
-pandas>=2.2.0
-numpy>=1.26.0
-scipy>=1.12.0
-scikit-learn>=1.4.0
-imbalanced-learn>=0.12.0
-matplotlib>=3.8.0
-seaborn>=0.13.0
-joblib>=1.3.0
-streamlit>=1.35.0
-altair>=5.0.0
+# Minimum Python version required: Python >= 3.10
+# Pinned dependencies for Learn Depth Academy Track 1 Final Capstone (Problem 10)
+# Project: Urban Air Quality Category Prediction (Multi-Class Classification)
+
+# Core Scientific & Data Processing
+numpy==2.5.1                # High-performance multi-dimensional array operations
+pandas==3.0.5               # Tabular data manipulation, time-series indexing, and CSV ingestion
+scipy==1.18.0               # Scientific computing, statistical distributions, and matrix operations
+
+# Machine Learning & Resampling
+scikit-learn==1.9.0         # Foundational ML: LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, preprocessing, metrics
+imbalanced-learn==0.14.2    # Synthetic Minority Over-sampling Technique (SMOTE) for class rebalancing
+joblib==1.5.3               # Efficient serialization and deserialization of fitted pipeline artifacts
+
+# Visualization & Reporting
+matplotlib==3.11.1          # Core plotting engine for confusion matrices, ROC curves, and distributions
+seaborn==0.13.2             # Statistical data visualization (heatmaps, boxplots, pairplots)
+
+# Interactive Web Application
+streamlit==1.64.0           # Dashboard interface, reactive input widgets, and real-time inference serving
+altair==6.3.0               # Declarative statistical visualization library used by Streamlit
+
+# Interactive Development & Notebooks
+jupyter==1.1.1              # Metapackage for interactive Jupyter notebook environment
+ipykernel==7.3.0            # IPython kernel for Jupyter notebook execution
