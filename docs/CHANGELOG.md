@@ -186,3 +186,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 182** [2026-09-30 13:31]: `docs: author 15-slide capstone defense presentation deck in docs/presentation_slides.md`
 - **Commit 183** [2026-09-30 14:44]: `docs: author 20+ oral defense and viva voce preparation guide in docs/viva_qa.md`
 - **Commit 184** [2026-09-30 15:57]: `docs: compile production README.md with architecture, results, and setup instructions`
+- **Commit 185** [2026-09-30 17:10]: `chore: finalize requirements.txt with pinned dependency matrix`
