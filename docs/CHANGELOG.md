@@ -183,3 +183,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 179** [2026-09-30 09:52]: `feat: implement interactive What-If sensitivity simulator in app.py`
 - **Commit 180** [2026-09-30 11:05]: `feat: generate interactive Jupyter notebook notebooks/capstone_eda_and_modeling.ipynb`
 - **Commit 181** [2026-09-30 12:18]: `docs: author complete 12-section IEEE/ACM style technical paper in docs/technical_paper.md`
+- **Commit 182** [2026-09-30 13:31]: `docs: author 15-slide capstone defense presentation deck in docs/presentation_slides.md`
