@@ -177,3 +177,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 173** [2026-09-30 02:33]: `feat: add quick scenario preset loader (Coastal Bengaluru, Industrial Hyderabad, Winter Smog Delhi)`
 - **Commit 174** [2026-09-30 03:46]: `feat: build 2-column input sliders for 7 criteria pollutants with physical units`
 - **Commit 175** [2026-09-30 04:59]: `feat: implement atmospheric physical validation (reject negative values, alert if PM2.5 > PM10)`
+- **Commit 176** [2026-09-30 06:12]: `feat: display color-coded CPCB category badge with custom CSS styling`
