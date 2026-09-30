@@ -181,3 +181,4 @@ Track 1 Capstone (Problem 10) Commit Audit Trail:
 - **Commit 177** [2026-09-30 07:25]: `feat: render horizontal category probability distribution bars matching CPCB palette`
 - **Commit 178** [2026-09-30 08:38]: `feat: integrate stratified health advisories for General Public, Sensitive Groups, and Protective Actions`
 - **Commit 179** [2026-09-30 09:52]: `feat: implement interactive What-If sensitivity simulator in app.py`
+- **Commit 180** [2026-09-30 11:05]: `feat: generate interactive Jupyter notebook notebooks/capstone_eda_and_modeling.ipynb`
