@@ -20,16 +20,16 @@
 
 ### Which Classes Are Hardest to Separate?
 1. **Moderate (AQI 101–200) vs Poor (AQI 201–300):**
-   - **Atmospheric Physics Rationale:** Under Indian ambient conditions, the transition from *Moderate* to *Poor* represents a continuum of particulate accumulation ($PM_{2.5} pprox 60	ext{–}90\ \mu	ext{g/m}^3$) rather than a sharp chemical phase change. In regions near boundary thresholds (e.g. $PM_{2.5} = 88\ \mu	ext{g/m}^3$), daily wind shifts or minor sensor calibration offsets blur the separation.
+   - **Atmospheric Physics Rationale:** Under Indian ambient conditions, the transition from *Moderate* to *Poor* represents a continuum of particulate accumulation ($PM_{2.5} \approx 60\text{ to }90\ \mu\text{g/m}^3$) rather than a sharp chemical phase change. In regions near boundary thresholds (e.g. $PM_{2.5} = 88\ \mu\text{g/m}^3$), daily wind shifts or minor sensor calibration offsets blur the separation.
    - **Model Behavior:** In the confusion matrix, ~12–18% of true *Poor* days are predicted as *Moderate* across linear and distance models. Because SMOTE rebalances the training distribution, the model avoids outright class collapse, but the intrinsic overlap between these adjacent states limits separation sharpness.
 
 2. **Satisfactory (AQI 51–100) vs Moderate (AQI 101–200):**
-   - These two categories encompass nearly 68% of baseline urban days. Particulate readings frequently cluster near the $PM_{10} = 100\ \mu	ext{g/m}^3$ boundary, causing minor mutual leakages between adjacent bins.
+   - These two categories encompass nearly 68% of baseline urban days. Particulate readings frequently cluster near the $PM_{10} = 100\ \mu\text{g/m}^3$ boundary, causing minor mutual leakages between adjacent bins.
 
 ### Which Classes Exhibit the Highest Separation?
 1. **Good (AQI 0–50) and Severe (AQI 401–500+):**
    - Both categories achieve the highest diagonal recall and precision ($> 0.85$ ROC-AUC).
-   - *Physical Rationale:* A "Severe" emergency ($PM_{2.5} > 250\ \mu	ext{g/m}^3, CO > 10\ 	ext{mg/m}^3$) is physically and statistically isolated by an order of magnitude from a pristine "Good" coastal day ($PM_{2.5} < 30\ \mu	ext{g/m}^3$). Even simple linear decision hyperplanes easily bisect these extreme clusters.
+   - *Physical Rationale:* A "Severe" emergency ($PM_{2.5} > 250\ \mu\text{g/m}^3, CO > 10\ \text{mg/m}^3$) is physically and statistically isolated by an order of magnitude from a pristine "Good" coastal day ($PM_{2.5} < 30\ \mu\text{g/m}^3$). Even simple linear decision hyperplanes easily bisect these extreme clusters.
 
 ---
 
@@ -38,8 +38,8 @@
 ### 1. Multinomial Logistic Regression
 - **Strengths:** 
   - Convex loss surface ensures globally optimal parameter convergence.
-  - Highly interpretable log-odds weights ($eta_k$): permits air quality regulators to audit the precise marginal contribution of each $\mu	ext{g/m}^3$ of $PM_{2.5}$ to category shifts.
-  - Ultra-fast inference ($pprox 0.002	ext{ ms/sample}$), optimal for embedded microcontroller sensors.
+  - Highly interpretable log-odds weights ($\beta_k$): permits air quality regulators to audit the precise marginal contribution of each $\mu\text{g/m}^3$ of $PM_{2.5}$ to category shifts.
+  - Ultra-fast inference ($\approx 0.002\text{ ms/sample}$), optimal for embedded microcontroller sensors.
 - **Weaknesses:** 
   - Assumes linear decision hyperplanes in feature space. Cannot easily model non-linear pollutant interactions (e.g., synergistic ozone formation under high temperature and nitrogen dioxide) without explicit polynomial terms.
 
@@ -53,9 +53,9 @@
 
 ### 3. Decision Tree Classifier
 - **Strengths:**
-  - Orthogonal axis-aligned splitting reflects human regulatory rule logic (e.g., *if $PM_{2.5} > 90$ and $O_3 > 50 	o 	ext{Poor}$*).
+  - Orthogonal axis-aligned splitting reflects human regulatory rule logic (e.g., *if $PM_{2.5} > 90$ and $O_3 > 50 \to \text{Poor}$*).
   - Invariant to monotonic feature transformations and non-linearities.
-  - Exceptional inference speed with $\mathcal{O}(	ext{depth})$ traversal.
+  - Exceptional inference speed with $\mathcal{O}(\text{depth})$ traversal.
 - **Weaknesses:**
   - Susceptible to high variance and step-function boundary artifacts near fine numeric cutoffs. Regularization via `max_depth` and `min_samples_split` is essential to prevent memorization of noise.
 
@@ -66,4 +66,4 @@
 The **champion model** selected for deployment in the Streamlit application is the **Decision Tree Classifier** (or K-Nearest Neighbors depending on test set Macro-F1 lead), justified along three pillars:
 1. **Regulatory Transparency:** Environmental control boards (such as the CPCB and US EPA) require explainable, rule-based audit trails that can be defended in civic policy hearings.
 2. **Balanced Performance across Vulnerable Classes:** Delivers strong Macro-F1 and high Recall on the dangerous *Severe* and *Very Poor* categories, minimizing false-negative health advisories.
-3. **Deployment Feasibility:** Instantaneous inference latency ($< 0.05	ext{ ms}$) without external matrix dependencies, ensuring smooth user responsiveness in the Streamlit web dashboard.
+3. **Deployment Feasibility:** Instantaneous inference latency ($< 0.05\text{ ms}$) without external matrix dependencies, ensuring smooth user responsiveness in the Streamlit web dashboard.

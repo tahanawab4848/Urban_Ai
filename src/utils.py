@@ -4,6 +4,10 @@ Utility functions for plotting, metric computation, and artifact management.
 
 import os
 import json
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 import matplotlib
 matplotlib.use("Agg")  # Non-interactive backend for headless execution
 import matplotlib.pyplot as plt

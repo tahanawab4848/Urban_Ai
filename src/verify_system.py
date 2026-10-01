@@ -5,6 +5,10 @@ Validates artifact integrity, pipeline execution, and model predictions across p
 
 import os
 import sys
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 import joblib
 import pandas as pd
 import numpy as np

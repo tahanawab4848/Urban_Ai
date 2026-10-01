@@ -179,14 +179,14 @@ def run_evaluation(
         roc_str = f"{m['test_ovr_roc_auc']:.4f}" if m['test_ovr_roc_auc'] else "N/A"
         report_content += f"| **{clean_name}** | `{params_str}` | **{m['test_accuracy']:.4f}** | {m['test_macro_precision']:.4f} | {m['test_macro_recall']:.4f} | **{m['test_macro_f1']:.4f}** | {roc_str} | {m['tuning_time_seconds']}s | {m['inference_latency_per_sample_ms']:.4f} ms |\n"
 
-    report_content += """
+    report_content += r"""
 ---
 
 ## 2. In-Depth Error Diagnosis & Boundary Misclassifications
 
 ### Which Classes Are Hardest to Separate?
 1. **Moderate (AQI 101–200) vs Poor (AQI 201–300):**
-   - **Atmospheric Physics Rationale:** Under Indian ambient conditions, the transition from *Moderate* to *Poor* represents a continuum of particulate accumulation ($PM_{2.5} \approx 60\text{–}90\ \mu\text{g/m}^3$) rather than a sharp chemical phase change. In regions near boundary thresholds (e.g. $PM_{2.5} = 88\ \mu\text{g/m}^3$), daily wind shifts or minor sensor calibration offsets blur the separation.
+   - **Atmospheric Physics Rationale:** Under Indian ambient conditions, the transition from *Moderate* to *Poor* represents a continuum of particulate accumulation ($PM_{2.5} \approx 60\text{ to }90\ \mu\text{g/m}^3$) rather than a sharp chemical phase change. In regions near boundary thresholds (e.g. $PM_{2.5} = 88\ \mu\text{g/m}^3$), daily wind shifts or minor sensor calibration offsets blur the separation.
    - **Model Behavior:** In the confusion matrix, ~12–18% of true *Poor* days are predicted as *Moderate* across linear and distance models. Because SMOTE rebalances the training distribution, the model avoids outright class collapse, but the intrinsic overlap between these adjacent states limits separation sharpness.
 
 2. **Satisfactory (AQI 51–100) vs Moderate (AQI 101–200):**

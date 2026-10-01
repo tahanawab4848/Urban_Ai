@@ -176,7 +176,7 @@ def run_eda(raw_path: str = "data/raw/city_day.csv", output_dir: str = "artifact
     # Boxplot for core pollutants
     plt.figure(figsize=(12, 6))
     melted = df[CORE_POLLUTANTS].melt(var_name="Pollutant", value_name="Concentration")
-    sns.boxplot(x="Pollutant", y="Concentration", data=melted, palette="Set2")
+    sns.boxplot(x="Pollutant", y="Concentration", data=melted, hue="Pollutant", palette="Set2", legend=False)
     plt.yscale("log")
     plt.title("Boxplots of Core Criteria Pollutants (Log Scale)", fontsize=13, fontweight="bold")
     plt.ylabel("Concentration (log scale)", fontsize=11)
